@@ -18,7 +18,7 @@ end
 OutputData = [LeafState,LeafEnergyFlux,LeafMassFlux];
 
 %% Print Output data      
-outputfileName = strcat("../Output2/",fileName,"_Output.xlsx");
+outputfileName = strcat("../Output/",fileName,"_Output.xlsx");
 writetable(OutputData,outputfileName)
 
 
