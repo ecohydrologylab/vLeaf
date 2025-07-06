@@ -1,7 +1,8 @@
 ===================================================================================
-                            vLeaf LICENSE AGREEMENT
+                            vLeaf LICENSE AGREEMENT 
 CREATIVE COMMONS ATTRIBUTION-NONCOMMERCIAL 4.0 INTERNATIONAL LICENSE (CC BY-NC 4.0)
 ===================================================================================
+Copyright (c) EcohydrologyLab, 2025
 
 This code is licensed under the
 CREATIVE COMMONS ATTRIBUTION-NONCOMMERCIAL 4.0 INTERNATIONAL LICENSE (CC BY-NC 4.0)
@@ -11,8 +12,14 @@ without prior written permission from the authors.
 
 Contact: venkatraman@iitm.ac.in
 
-You can use the code under the following terms:
-Attribution: You must give appropriate credit and indicate if changes were made.
-NonCommercial: You may not use the material for commercial purposes.
+Permission is hereby granted, free of charge, to use and modify this code for academic, research, and personal purposes, provided that:
+1. Any academic or scientific publication that uses this code or derivatives must cite the publication, if citation information is not available please contact the author [venkatraman@iitm.ac.in].
+2. CITATION INFORMATION: Please contact the author
+3. NonCommercial: You may not use the material for commercial purposes.
 
-Full license text: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+All rights not explicitly granted are reserved.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS 
+IN THE SOFTWARE.
