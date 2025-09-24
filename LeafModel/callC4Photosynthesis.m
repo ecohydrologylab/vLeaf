@@ -91,7 +91,7 @@ LeafState.Gamma_C = LeafState.Gamma_C_CO2;
 if LeafState.Gamma_C < 0
     LeafState.Gamma_C = 0;
 end
-GammaQuadratic = [(Photosynthesis.gbs) (Photosynthesis.gbs*(LeafState.Kp-LeafState.Gamma_C)+LeafMassFlux.vpmax-LeafMassFlux.rm)...
+GammaQuadratic = [(Photosynthesis.gbs) (Photosynthesis.gbs*(LeafState.Kp-LeafState.Gamma_C)+LeafMassFlux.vpmax-LeafMassFlux.rm) ...
     -(LeafState.Gamma_C*LeafState.Kp*Photosynthesis.gbs+LeafMassFlux.rm*LeafState.Kp)];
 Root = roots(GammaQuadratic);
 LeafState.Gamma = max(Root);
