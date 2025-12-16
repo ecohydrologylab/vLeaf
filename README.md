@@ -49,7 +49,7 @@ You can access the description of the variables in the paper DOI: https://doi.or
 ---
 
 > ## Output DataFrames
->> ## LestState
+> ## LestState
 >> | Symbol                               | Variable name    | Description                                              | Unit |
 >> |--------------------------------------|------------------|----------------------------------------------------------|------|
 >> | $flag$                               | flag             | Flag indicating the state of the leaf                    | -    |
@@ -76,7 +76,7 @@ You can access the description of the variables in the paper DOI: https://doi.or
 >> | $A_{error}$                          | Aerror           | Error in net CO$_2$ assimilation rate                    | -    |
 >> | $C_{i,error}$                        | Cierror          | Error in CO$_2$ concentration                            | -    |
 >> | $g_{s,error}$                        | Gserror          | Error in stomatal conductance                            | -    |
->> ## LeafMassFlux
+> ## LeafMassFlux
 >> | Symbol                                | Variable name     | Description                                                | Unit |
 >> |---------------------------------------|-------------------|------------------------------------------------------------|------|
 >> | $r_d$                                 | rd                | Respiration rate in the leaf                               | $\mu mol \ m^{-2} s^{-1}$ |
@@ -100,7 +100,7 @@ You can access the description of the variables in the paper DOI: https://doi.or
 >> | $V_{cmax}$                            | vcmax             | Maximum Rubisco carboxylation rate in the bundle sheath   | $\mu mol \ m^{-2} s^{-1}$ |
 >> | $J_{max}$                             | jmax              | Maximum whole chain electron transport rate               | $\mu mol \ m^{-2} s^{-1}$ |
 >> | $\tau$                                | transpiration     | Water loss due to transpiration                           | $\mu mol \ m^{-2} s^{-1}$ |
->> ## LeafEnergyFlux
+> ## LeafEnergyFlux
 >> | Symbol                                | Variable name     | Description                                                | Unit |
 >> |---------------------------------------|-------------------|------------------------------------------------------------|------|
 >> | $H$                                   | H                 | Sensible heat flux out of the leaf                         | $W m^{-2}$ |
