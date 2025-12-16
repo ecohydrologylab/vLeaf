@@ -1,9 +1,13 @@
 # vLeaf
 This code is associated with our publication "Stomatal conductance reduction tradeoffs in maize leaves: A theoretical study". You can access the paper from DOI: https://doi.org/10.1111/pce.14821.
 
-Use driverC4Leaf.m to execute the code. 
-Change the input file name in the driver to those available in the Input folder to generate the output. 
-The output file will automatically be saved in the Output folder. 
+## Steps to use the vLeaf model
+1) Download the ZIP file.
+2) Use one of the input files located in the Input folder.
+3) Change the input file name in the driver to those available in the Input folder.
+4) Run the $driverC4Leaf.m$ code with the selected code.
+5) The output file will automatically be saved in the Output folder. 
+
 You can access the description of the variables in the paper DOI: https://doi.org/10.1111/pce.14821
 ------
 
