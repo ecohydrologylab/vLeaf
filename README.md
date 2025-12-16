@@ -3,9 +3,9 @@ This code is associated with our publication "Stomatal conductance reduction tra
 
 ## Steps to use the vLeaf model
 1) Download the ZIP file.
-2) Use one of the input files located in the Input folder.
+2) Use one of the input files located in the "Input" folder.
 3) Change the input file name in the driver to those available in the Input folder.
-4) Run the $driverC4Leaf.m$ code with the selected code.
+4) Run the $driverC4Leaf.m$ code located in the folder "LeafModel" with the selected code.
 5) The output file will automatically be saved in the Output folder. 
 
 You can access the description of the variables in the paper DOI: https://doi.org/10.1111/pce.14821
