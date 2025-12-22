@@ -21,7 +21,7 @@ if LeafState.cbs <= 100
 end
 %% Compute obs
 LeafState.obs = Photosynthesis.alpha * LeafMassFlux.aNet /... 
-(0.047 * Photosynthesis.gbs) + Weather.O2; % O2 conc. at bundle sheath [u moles mole-1]
+(0.047 * Photosynthesis.gbs * 1000.0) + Weather.O2; % O2 conc. at bundle sheath [u moles mole-1]
 % LeafState.obs = max(0,LeafState.obs);
 
 %% Photosynthesis
@@ -34,4 +34,5 @@ SSE = (LeafMassFlux.vc-optimizeVector(1))^2.0+ ...
       (LeafState.cbs-optimizeVector(2))^2.0+ ...
       (LeafState.obs-optimizeVector(3))^2.0+ ...
       (LeafMassFlux.aNet-optimizeVector(4))^2.0;
+
 end
